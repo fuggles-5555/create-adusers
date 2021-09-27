@@ -15,11 +15,11 @@ Two files are output to the current directory. These contain a list of the new u
 Usage:
 
 ```. .\CreateAdUsers.ps1
-Create-AdUsers -FirstNameFile <firstnames> -LastNameFile <lastnames> -PasswordFile <passwords> -NumberOfAccounts <num>```
+Create-AdUsers -FirstNameFile <firstnames> -LastNameFile <lastnames> -PasswordFile <passwords> -NumberOfAccounts <num>
+```
 
 E.g.
 
-```
-Create-AdUsers -FirstNameFile firstnames.txt -LastNameFile lastnames.txt -PasswordFile passwords.lst -NumberOfAccounts 200
+```Create-AdUsers -FirstNameFile firstnames.txt -LastNameFile lastnames.txt -PasswordFile passwords.lst -NumberOfAccounts 200
 ```
 
